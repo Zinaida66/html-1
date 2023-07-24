@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.boks{
+    width: 100%;
+    height: 620px;
+    background-color:rgb(199, 205, 212);
+    display: flex;
+    justify-content: center;
+  
+}
+.boks1{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.link1{
+    margin-bottom: 10px;
+    position: absolute;
+    top:250px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.link2{
+    width: 360px;
+    height: 44px;
+    display: flex;
+    position: absolute;
+    top: 300px;
+  
+    
+}
+.link0{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 13px;
+   
+}
+.ics1{
+    background-color:white ;
+    animation-name: efect1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.ics2{
+    background-color: rgb(224, 110, 110);
+    animation-name: efect2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.ics3{
+    background-color: chocolate;
+    animation-name: efect3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.ics4{
+    background-color: darkorange;
+    animation-name: efect4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.ics5{
+    background-color: dodgerblue;
+    animation-name: efect5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.ics6{
+    background-color: lightseagreen;
+    animation-name: efect6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.ics7{
+    background-color: rgb(125, 61, 172);
+    animation-name: efect7;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.ics8{
+    background-color: black;
+    animation-name: efect8;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes efect1{
+    0%{
+        width: 15px;
+        height: 15px;
+    }
+    50%{
+       box-shadow: 0px 0px 0px 10px lightgray;
+    }
+   
+}
+
+@keyframes efect2{
+    0%{
+        width: 15px;
+        height: 15px;
+    }
+    50%{
+       box-shadow: 0px 0px 0px 10px rgb(245, 206, 219) ;
+    }
+   
+}
+@keyframes efect3{
+    0%{
+        width: 15px;
+        height: 15px;
+    }
+    50%{
+       box-shadow: 0px 0px 0px 10px rgb(233, 135, 106);
+    }
+   
+}
+@keyframes efect4{
+    0%{
+        width: 15px;
+        height: 15px;
+    }
+    50%{
+       box-shadow: 0px 0px 0px 10px rgb(241, 156, 75);
+    }
+   
+}
+@keyframes efect5{
+    0%{
+        width: 15px;
+        height: 15px;
+    }
+    50%{
+       box-shadow: 0px 0px 0px 10px rgb(115, 176, 230);
+    }
+   
+}
+@keyframes efect6{
+    0%{
+        width: 15px;
+        height: 15px;
+    }
+    50%{
+       box-shadow: 0px 0px 0px 10px rgb(146, 224, 211);
+    }
+   
+}
+@keyframes efect7{
+    0%{
+        width: 15px;
+        height: 15px;
+    }
+    50%{
+       box-shadow: 0px 0px 0px 10px rgb(171, 139, 223);
+    }
+   
+}
+@keyframes efect8{
+    0%{
+        width: 15px;
+        height: 15px;
+    }
+    50%{
+       box-shadow: 0px 0px 0px 10px rgb(150, 150, 150);
+    }
+   
+}

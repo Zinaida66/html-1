@@ -1,0 +1,562 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.serf {
+    width: 1440px;
+}
+
+.bg-image {
+    
+    background-image:  url("./image/Background.png");
+    
+    width: 1440px;
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+}
+.sludx {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 201px;
+}
+.container {
+    display: flex;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.boxt {
+    margin-left: 400px;
+}
+.slud {
+    margin-left: 31px;
+    font-size: 18px;
+    font-weight: lighter;
+    width: 87px;
+}
+.slud:hover {
+    font-weight: bold;
+}
+.fim {
+    background-image: url("./image/Profile\ Picture.png");
+    height: 350px;
+    width: 340px;
+}
+a {
+    color: #fff;
+}
+a:hover {
+    color: #ffff;
+}
+.will {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.raul {
+    font-size: 64px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 200;
+    margin-top: 48px;
+    margin-left: 156px;
+}
+.raul1 {
+    font-size: 24px;
+    font-family: "Libre-Regular", sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 26px;
+    margin-bottom: 104px;
+    margin-left: 154px;
+}
+.raul2 {
+    font-size: 18px;
+    font-family: "Libre-Regular", sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 1px;
+    margin-left: 154px;
+
+    text-decoration: underline;
+}
+.point1 {
+    font-size: 24px;
+    margin-top: 88px;
+    margin-left: 166px;
+}
+.point2 {
+    width: 1107px;
+    font-size: 20px;
+
+    margin-top: 73px;
+    margin-left: 166px;
+}
+.point3 {
+    width: 1107px;
+    font-size: 20px;
+
+    margin-top: 30px;
+    margin-left: 166px;
+}
+.box1 {
+    width: 1440px;
+    height: 693px;
+    background-color: #fffaf2;
+    margin-top: 128px;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.point4 {
+    font-size: 24px;
+    margin-top: 13px;
+    margin-left: 2px;
+    margin-bottom: 84px;
+}
+.point5 {
+    margin-left: 164px;
+    margin-top: 84px;
+}
+.point6 {
+    width: 635px;
+    margin-left: 124px;
+}
+.cois1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 214px;
+}
+.sil1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.sil2 {
+    font-family: "Libre-Regular", sans-serif;
+    font-size: 18px;
+    margin-top: 4px;
+    margin-left: 130px;
+}
+.sil3 {
+    font-size: 19px;
+    margin-right: 37px;
+    width: 171px;
+    margin-top: -5px;
+}
+.cois2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 46px;
+
+    width: 635px;
+    height: 70px;
+}
+.w-80 {
+    width: 86% !important;
+}
+.w-75 {
+    width: 79% !important;
+}
+.w-65 {
+    width: 64% !important;
+}
+.sitis1 {
+    display: flex;
+    flex-direction: row;
+}
+.sitis2 {
+    display: flex;
+    flex-direction: row;
+    width: 579px;
+}
+.sil8 {
+    font-size: 19px;
+    width: 120px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.sil9 {
+    font-size: 19px;
+    width: 308px;
+    margin-top: 1px;
+    margin-left: 67px;
+}
+.cois3,
+.cois4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 635px;
+    height: 70px;
+}
+.linr1 {
+    width: 349px;
+    margin-top: 81px;
+}
+.box2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 167px;
+    margin-top: 97px;
+}
+.point9 {
+    font-size: 24px;
+}
+.ss1 {
+    margin-top: 52px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.ss2 {
+    font-family: "Libre-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-top: 47px;
+}
+.ss3 {
+    font-size: 45px;
+    margin-top: 226px;
+    margin-left: 17px;
+}
+.ss4 {
+    margin-top: 185px;
+    margin-left: 126px;
+}
+.box3 {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 528px;
+    background-color: #fffaf2;
+}
+.deft2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 199px;
+    margin-left: 165px;
+}
+.deft1 {
+    font-size: 25px;
+    height: 30px;
+}
+.prom1 {
+    margin-top: 55px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.xc {
+    color: #000;
+    font-size: 20px;
+}
+.xs:hover {
+    color: #000;
+}
+.prom2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 49px;
+    margin-left: 303px;
+    line-height: 35px;
+}
+.ww1 {
+    display: flex;
+    flex-direction: row;
+}
+.email {
+    margin-top: 54px;
+    margin-left: 292px;
+}
+.email1 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    height: 29px;
+    font-family: "Libre Franklin", sans-serif;
+}
+.nomer {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1px;
+    height: 18px;
+}
+.fff {
+    height: 24px;
+    width: 80%;
+}
+.fff1 {
+    height: 24px;
+    width: 80%;
+}
+.fff2 {
+    height: 24px;
+    width: 80%;
+}
+.ss4 {
+    width: 635px;
+    height: 403px;
+    background-image: url("./image/Portfolio\ Images.png");
+}
+@media screen and (max-width: 375px) {
+    .serf {
+        width: 375px;
+    }
+
+    .bg-image {
+        width: 373px;
+        height: 275px;
+        background-image: url("./image/Background2.png");
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+    }
+    .sludx {
+        height: 29px;
+        margin-top: -57px;
+        margin-left: 131px;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: url("./image/GlobalNavButton\(E700\).svg");
+        background: 50%/100% 100% no-repeat;
+        margin-top: 1px;
+        margin-left: 1px;
+    }
+    .raul {
+        font-size: 20px;
+        font-family: "Libre Franklin", sans-serif;
+        font-weight: 200;
+        margin-top: 64px;
+        margin-left: 68px;
+    }
+    .raul1 {
+        font-size: 11px;
+        font-family: "Libre-Regular", sans-serif;
+        font-weight: 200;
+        letter-spacing: 1px;
+        margin-top: 16px;
+        margin-bottom: 35px;
+        margin-left: 87px;
+    }
+    .raul2 {
+        font-size: 12px;
+        font-family: "Libre-Regular", sans-serif;
+        font-weight: 200;
+        letter-spacing: 1px;
+
+        margin-left: 136px;
+        text-decoration: underline;
+    }
+    .point1 {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 151px;
+    }
+    .point2 {
+        width: 316px;
+        font-size: 12px;
+        margin-top: 6px;
+        margin-left: 35px;
+        line-height: 15px;
+        letter-spacing: 0px;
+        word-spacing: 2px;
+    }
+    .point3 {
+        width: 316px;
+        font-size: 12px;
+        margin-top: 6px;
+        margin-left: 35px;
+        line-height: 15px;
+        letter-spacing: 0px;
+        word-spacing: 2px;
+    }
+    .point4 {
+        font-size: 24px;
+        margin-top: 11px;
+        margin-left: 88px;
+        margin-bottom: 24px;
+    }
+    .point5 {
+        margin-left: 69px;
+        margin-top: 0px;
+    }
+    .point6 {
+        width: 375px;
+        margin-left: 33px;
+    }
+    .point9 {
+        width: 100px;
+        margin-left: 111px;
+    }
+    .linr1 {
+        margin-top: -57px;
+        margin-left: 10px;
+    }
+    .fill {
+        font-size: 13px;
+    }
+    .sil1 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .sil2 {
+        font-size: 12px;
+        margin-left: 59px;
+    }
+    .sil3 {
+        font-size: 13px;
+        margin-right: 5px;
+        width: 93px;
+    }
+    .sil8 {
+        font-size: 12px;
+        width: 29px;
+        margin-top: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .sil9 {
+        font-size: 13px;
+        width: 231px;
+        margin-top: 1px;
+        margin-left: 69px;
+    }
+    .cois1 {
+        margin-top: 27px;
+        width: 375px;
+    }
+    .cois2 {
+        margin-top: 23px;
+        width: 375px;
+    }
+    .box1 {
+        width: 375px;
+        height: 602px;
+        background-color: #fffaf2;
+        margin-top: 33px;
+        margin-left: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 37px;
+        margin-top: 26px;
+    }
+    .fim {
+        margin-top: 0px;
+        margin-left: 1px;
+        background-image: url("./image/Profile\ Picture\ \(1\).png");
+        height: 218px;
+        width: 224px;
+    }
+    .cois3,
+    .cois4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
+        width: 375px;
+        height: 70px;
+    }
+    .fff {
+        height: 17px;
+        width: 33%;
+    }
+    .fff1 {
+        height: 17px;
+        width: 33%;
+    }
+    .fff2 {
+        height: 17px;
+        width: 33%;
+    }
+    .ss1 {
+        margin-top: 75px;
+        margin-left: 104px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .ss2 {
+        font-family: "Libre-Regular", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        margin-top: 8px;
+    }
+    .ss3 {
+        width: 0px;
+        font-size: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .ss4 {
+        background-image: url("./image/Portfolio\ Imagesf.png");
+        width: 308px;
+        height: 195.5px;
+        margin-top: -5px;
+        margin-left: -34px;
+    }
+    .deft2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 43px;
+        margin-left: 40px;
+    }
+    .box3{
+        width: 375px;
+        height: 360px;
+    }
+    .deft1 {
+        font-size: 25px;
+        height: 30px;
+        margin-left: 77px;
+    }
+    .prom1 {
+        margin-top: 28px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .xc{
+        font-size: 15px;
+    }
+    .prom2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 22px;
+        margin-left: 104px;
+        line-height: 36px;
+    }
+    .email {
+        margin-top: 222px;
+        margin-left: -229px;
+    }
+    .email1 {
+        font-size: 14px;
+        letter-spacing: 2px;
+        height: 13px;
+        font-family: "Libre Franklin", sans-serif;
+    }
+    .nomer {
+        font-size: 13px;
+       
+    }
+    .vfg{
+        background-image: url('./image/Back\ to\ top.svg');
+        width: 24px;
+        height: 24px;
+        margin-top: 229px;
+        margin-left: 139px;
+    }
+   .sitis2{
+    width: 375px;
+   }
+}
